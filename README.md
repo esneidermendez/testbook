@@ -19,13 +19,17 @@ para bajar dependencias desde la carpeta raiz testbook/backend.
 ### `npm start`
 abrir [http://localhost:5000](http://localhost:5000) en postman.
 
-Base de datos No relacional MongoDB
+Base de datos No relacional MongoDB, se encuentra publica y activada.
 Colecciones 
--posts
--resettokens
--verificationtokens
--users
+- posts
+- resettokens
+- verificationtokens
+- users
 
 Se eligió este tipo de BD debido a que esta base de datos ofrece una mejor flexibilidad en el esquema de los datos,alta disponibilidad, mejor rendimiento, soporte para consultas complejas
 
 Se adjunta la colección de Postman para probar el todo el backend
+
+Información complementaria
+- Se vincula la autenticación por OTP y envio de email.
+- Por temas de tiempo no se aplicaron test unitarios pero los considero realizarlos con Jest
